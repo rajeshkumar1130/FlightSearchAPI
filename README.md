@@ -1,12 +1,13 @@
-# InventoryManager
+# FlightSearchAPI
 
-Inventory Manager API using .net core 3.1, entity framework core and sql server.
+Flight Search API using .net core 3.1, entity framework core and sql server.
 
 
 # Notes
 1. Always getting unauthorized error while testing using Swagger. So, test using Postman.
+2. In the package manager console use update-database command to create the data base
+3. Use flightsearch.sql to create the required stored procedure for the api
 
 # ToDo
-1. Need more domain knowledge to create accurate database schema.
-2. Currenly the API Allows anyone to register themselves as ADMIN. This needs to be changed.
-3. Add subcategory table
+1. Include date in the search criteria
+2. Write unit test cases

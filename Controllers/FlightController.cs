@@ -11,7 +11,7 @@ using System;
 
 namespace FlightSearch.API.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class FlightController : ControllerBase
